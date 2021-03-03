@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.background-container{
+    background: url(/images/landing3.jpg) top / cover no-repeat;
+    min-height: 40rem;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    margin-left: 43rem;
+    margin-top: 8rem;
+}
+
+
+.nav-link{
+     font-weight: bolder;
+     padding-left: 30rem;
+     font-size: 18px;
+     padding-left: 300rem;
+    color: #727272 !important;
+}
+
+.App {
+    position: absolute;
+    
+  }
+
+ 
+  .btn1:hover {
+    background-color: #cccccc !important;
+    color: black !important;
+  }
+
+  
+.image-background{
+    background: url(images/showcase.jpg) center bottom/ cover no-repeat;
+    min-height: 28rem;
+    width: 100%;
+    position: relative;
+}
+
+#social-links {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #social-links:hover {
+    background-color: #000000;
+    color: #f1f0f2;
+  }
+
+  #gallery{
+      min-height: 20rem;
+  }
+
+ @media(max-width:768px) {
+    .background-container{
+        background: url(/images/landing3.jpg) top / cover no-repeat;
+        min-height: 30rem;
+        width: 100%;
+        position: relative;
+    }
+
+    
+
+ }
